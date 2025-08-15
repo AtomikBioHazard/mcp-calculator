@@ -65,6 +65,11 @@ psd
 thumb
 sketch
 
+### Ignore build artifacts ###
+dist/
+build/
+*.tgz
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
