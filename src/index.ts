@@ -15,3 +15,14 @@ server.tool(
     content: [{ type: "text", text: String(a + b) }]
   })
 );
+
+server.resource(
+  "greeting",
+  new ResourceTemplate("greeting://{name}", { list: undefined }),
+  async (uri, { name }) => ({
+    contents: [{
+      uri: uri.href,
+      text: `Hello, ${name}!`
+    }]
+  })
+);
