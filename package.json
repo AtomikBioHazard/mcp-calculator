@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A simple calculator that communicates with an MCP server, written in JavaScript.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "tsc && node ./build/index.js",
+    "build": "tsc && node ./build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
