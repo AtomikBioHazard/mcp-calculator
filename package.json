@@ -1,0 +1,20 @@
+{
+  "name": "mcp-calculator",
+  "version": "1.0.0",
+  "description": "A simple calculator that communicates with an MCP server, written in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomikBioHazard/mcp-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtomikBioHazard/mcp-calculator/issues"
+  },
+  "homepage": "https://github.com/AtomikBioHazard/mcp-calculator#readme"
+}
