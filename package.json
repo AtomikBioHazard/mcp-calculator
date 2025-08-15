@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/AtomikBioHazard/mcp-calculator/issues"
   },
-  "homepage": "https://github.com/AtomikBioHazard/mcp-calculator#readme"
+  "homepage": "https://github.com/AtomikBioHazard/mcp-calculator#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
 }
